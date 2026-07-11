@@ -1,0 +1,97 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# =========================
+# PraVIA Backend (Python)
+# =========================
+
+# Virtual environment
+backend/venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (API keys)
+.env
+backend/.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+
+# =========================
+# Flutter Additional
+# =========================
+
+# Flutter generated files
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+
+# Android generated files
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# iOS generated files
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
